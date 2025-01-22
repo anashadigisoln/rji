@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+  <title>RJ Auto Indrustries</title>
+  <meta name="description" content="R.J. Auto Industries, were established in the year 1975. Our decades of experience have led us to become the favored 
+  manufacturer and supplier of quality Valve Cups & Collets. Our valve cups are designed to fit into the valve stems and protect against accumulation 
+  of dirt and dust. We offer a wide array of valve cups in different sizes. They are processed under strict quality control measures to ensure high 
+  durability and resistance to corrosion. Important features of these products are: Available in various dimensions Highly durable in nature Good 
+  resistance to corrosion Tested for tensile strength Offered in competitive pricing Having served in this industry for more than a decade, 
+  we have become the leading manufacturer and supplier of a wide range of Valve Cups & Collets. This has been due to the strong focus on quality 
+  and constant improvisation of our product features. The raw materials such as metal are sourced from well-known vendors in the market. We also 
+  apply various quality control measures at every production stage to prevent any defect and damage in the product. The parts are stored
+   in a good warehouse and safeguarded from dust, moisture and heat.">
+
+
+<meta name="keywords" content="R.J. Auto Industries, were established in the year 1975. Our decades of experience have led us to become the favored 
+manufacturer and supplier of quality Valve Cups & Collets. Our valve cups are designed to fit into the valve stems and protect against accumulation 
+of dirt and dust. We offer a wide array of valve cups in different sizes. They are processed under strict quality control measures to ensure high 
+durability and resistance to corrosion. Important features of these products are: Available in various dimensions Highly durable in nature Good 
+resistance to corrosion Tested for tensile strength Offered in competitive pricing Having served in this industry for more than a decade, 
+we have become the leading manufacturer and supplier of a wide range of Valve Cups & Collets. This has been due to the strong focus on quality 
+and constant improvisation of our product features. The raw materials such as metal are sourced from well-known vendors in the market. We also 
+apply various quality control measures at every production stage to prevent any defect and damage in the product. The parts are stored
+ in a good warehouse and safeguarded from dust, moisture and heat.">
+
+<!-- favicon icon -->
+<link rel="icon" type="image/x-icon" href="/rji.ico">
+
+<!-- Stylesheet CSS -->
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/0.1.0/css/themify-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<script> src="/script.js"</script>
+
+
+<!--page start-->
+<body id="home">
+  <!-- Navbar Container -->
+  <nav class="navbar">
+    <!-- Logo Section -->
+    <div class="logo">
+      <img src="/Volumes/GoogleDrive/My Drive/Graphic Design/Web Design & Development I INDIA /images/LOGO.png" alt="RJ Auto Industries">
+    </div>
+
+    <!-- Navigation Tabs -->
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#products">Products Gallery</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+
+<!-- Slider -->
+<!------------------------------------===========================================---------->
+
+
+
+
+
+    <style>
+      .slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 1500px; /* Adjust max-width as needed */
+  height: 600px; 
+  padding-top: 10px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+/* Optional: Add some basic styling for images */
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  position: absolute;
+  bottom: 50px; /* Adjust position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.nav-button {
+  background-color: transparent; /* Make buttons transparent */
+  border: none;
+  cursor: pointer;
+  padding: 10px; 
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Add hover effect */
+}
+
+.nav-button img {
+  width: 30px; /* Adjust arrow size as needed */
+}
+
+/* Slide dots */
+.dots-container {
+  position: absolute;
+  bottom: 20px; /* Adjust position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fff;
+}  
+        
+
+        
+    </style>
+
+
+    <div class="slider-container">
+        <div class="slide active">
+            <img src="/sl1.png" alt="R 2sR%20J%20AUTO%20INDUSTRIES">
+        </div>
+        <div class="slide">
+            <img src="/sl2.png" alt="2sR%20J%20AUTO%20INDUSTRIES">
+        </div>
+        <div class="slide">
+            <img src="/sl3.png" alt="2sR%20J%20AUTO%20INDUSTRIES">
+        </div>
+
+      </div>
+      <button class="carousel-btn prev" aria-label="Previous Slide">&#10094;</button>
+      <button class="carousel-btn next" aria-label="Next Slide">&#10095;</button>
+    </div>
+
+        <div class="dots-container">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+<script>const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.dot');
+  let currentSlide = 0;
+  
+  function showSlide(n) {
+      slides.forEach((slide) => slide.classList.remove('active'));
+      dots.forEach((dot) => dot.classList.remove('active'));
+  
+      slides[n].classList.add('active');
+      dots[n].classList.add('active');
+  
+      currentSlide = n;
+  }
+  
+  function nextSlide() {
+      showSlide((currentSlide + 1) % slides.length);
+  }
+  
+  function prevSlide() {
+      showSlide((currentSlide - 1 + slides.length) % slides.length); 
+  }
+  
+  dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => showSlide(index));
+  });
+  
+  // Automatic slide transition (optional)
+  setInterval(nextSlide, 3000); // Change slide every 3 seconds</script>
+  
+<!-- About us -->
+   <div id="about" class="all-heading">
+  <h1> About Us </h1> </div>
+</div>
+<div class="container">
+  <div class="image">
+    <img src="/Volumes/GoogleDrive/My Drive/Graphic Design/Web Design & Development I INDIA /images/why.png" alt="Why Us Image">
+  </div>
+  <div class="content">
+    <h2>Welcome to RJ Auto Industries</h2>
+    <h3>About Our Industries</h3>
+    <p style=text-align:justify;>"We, R.J. Auto Industries, were established in the year 1975. Our decades of experience have led us to become the favored manufacturer and supplier of quality Valve Cups & Collets. Our valve cups are designed to fit
+        into the valve stems and protect against accumulation of dirt and dust. We offer a wide array of valve cups in different sizes. They are processed under strict quality control measures to ensure high durability
+        and resistance to corrosion. Important features of these products are: Available in various dimensions, Highly durable in nature, Good resistance to corrosion, Tested for tensile strength, Offered in competitive
+        pricing</p>
+
+    <p style="text-align: justify;">Having served in this industry for more than Four decade, we have become the leading manufacturer and supplier of a wide range of Valve Cups & Collets. This has been due to the strong focus on quality and constant improvisation
+        of our product features. The raw materials such as metal are sourced from well-known vendors in the market. We also apply various quality control measures at every production stage to prevent any defect and damage
+        in the product. The parts are stored in a good warehouse and safeguarded from dust, moisture and heat. </p>
+    </ul>
+  </div>
+</div>
+
+
+<!-- Why us -->
+<div class="all-heading">
+  <h1>Why Us?</h1>
+</div>
+<div class="container">
+  <div class="image">
+    <img src="/Volumes/GoogleDrive/My Drive/Graphic Design/Web Design & Development I INDIA /images/wh.png" alt="Why Us Image">
+  </div>
+  <div class="content">
+    <h3>Our Industries</h3>
+    <p>
+      RJ Auto Industries is serving the industry for more than Four decades and has been successful in meeting the growing demands of clients. Long presence available with the company is the symbol of trust and quality standards of our products.
+    </p>
+    <ul>
+      <li>Team</li>
+      <li>Quality Standards</li>
+      <li>Long Presence</li>
+      <li>Pricing</li>
+      <li>Ethical and transparent business norms</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Product Gallery -->
+<div id="products" class="all-heading">
+  <h1>Product Gallery</h1>
+</div>
+<div class="container2">
+  <div class="product-grid">
+  <div class="product-item">
+    <img src="/p1.png" alt="Valve cup collet Comet Single Spring">
+    <h3>Valve cup collet Comet Single Spring</h3>
+  </div>
+  <div class="product-item">
+    <img src="/p2.png" alt="Valve Cup collet Peter">
+    <h3>Valve Cup collet Peter</h3>
+  </div>
+  <div class="product-item">
+    <img src="/p3.png" alt="Vakve cup collet Kubota">
+    <h3>Vakve cup collet Kubota</h3>
+  </div>
+  <div class="product-item">
+    <img src="/p4.png" alt="Valve cup collet Z175">
+    <h3>Valve cup collet Z175</h3>
+  </div>
+  <div class="product-item">
+    <img src="/p5.png" alt="Valve cup collet Peter Single Spring">
+    <h3>Valve cup collet Peter Single Spring <br>( Topland type)</h3>
+  </div>
+  <div class="product-item">
+    <img src="/p6.png" alt="Valve cup collet Lister">
+    <h3>Valve cup collet Lister</h3>
+  </div>
+</div>
+</div>
+      
+      <div class="container2">  
+        <button id="load-more-btn" style="margin-left: 45%">More Products</button>
+      <div class="product-grid" id="moreImages">
+        <div class="product-item">
+          <img src="/p7.png" alt="Product 1">
+          <h3>Valve cup Collet Z170</h3>
+        </div>
+        <div class="product-item">
+          <img src="/p8.png" alt="Product 2">
+          <h3>Valve cup collet R170</h3>
+        </div>
+        <div class="product-item">
+          <img src="/p9.png" alt="Product 3">
+          <h3>RJI Valve Kit</h3>
+        </div>
+        <div class="product-item">
+          <img src="/p10.png" alt="Product 4">
+          <h3>RJI Woodruff Key</h3>
+        </div>
+        <div class="product-item">
+          <img src="/p11.png" alt="Product 5">
+          <h3>RJI Valve Spring Peter</h3>
+        </div>
+        <div class="product-item">
+          <img src="/p12.png" alt="Product 6">
+          <h3>RJI Valve Spring Kit</h3>
+        </div>
+      </div>
+    </div>
+    <style>
+      
+      #moreImages {
+        display: none; /* Initially hide the second grid */
+      }
+    </style>
+    <script>
+      const loadMoreBtn = document.getElementById('load-more-btn');
+      const moreImages = document.getElementById('moreImages');
+  
+      loadMoreBtn.addEventListener('click', () => {
+        moreImages.style.display = 'grid'; 
+        loadMoreBtn.style.display = 'none'; // Hide the button after clicking
+      });
+    </script>
+
+
+
+<!--contact Us -->
+<div id="contact" class="all-heading">
+  <h1>Contact Us</h1>
+</div>
+<div class="container">
+  <div class="image">
+
+    <!-- Google Map Section -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.607203278441!2d75.7669877107956!3d31.203902762602933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391af4d1afa9bb07%3A0xa05bd472f480d256!2sR%20J%20AUTO%20INDUSTRIES!5e0!3m2!1sen!2sin!4v1737318581934!5m2!1sen!2sin"
+    width="100%" height="550" frameborder="0" style="border:0;"></iframe>  </div>
+
+
+
+    <!-- Contact Us Form Section -->
+    <div class="content">
+    <div class="form-section">
+      <h2>Write Us</h2>
+      <form action="https://formspree.io/f/xanqwadw" method="POST" id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="mobile">Mobile No.</label>
+        <input type="tel" id="mobile" name="mobile" required>
+
+        <label for="email">Email ID</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+<footer>
+       <div class="footer-container">
+           <div class="footer-left">
+               <img src="/LOGO2.png" alt="RJ Industries Logo" class="footer-logo">
+               <p style="font-size:12px; padding-bottom:30px;">&copy; 2025 RJ Auto Industries. All rights reserved.</p>
+               <p> RJ Auto Industries is serving the industry for more than Four decades and has been successful in meeting the growing demands of clients. Long presence available with the company is the symbol of trust and quality standards of our products. </p>
+</br></br>
+    <!-- hitwebcounter Code START -->
+    <a href="https://www.hitwebcounter.com" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=7937352&style=0006&nbdigits=5" title="Free Counter" Alt="web counter" border="0" /></a>
+
+           </div>
+           <div class="footer-center">
+               <ul class="quick-links">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About Us</a></li>
+                   <li><a href="#">Product Gallery</a></li>
+                   <li><a href="#">Contact Us</a></li>
+               </ul>
+           </div>
+           <div class="footer-right">
+               <p class="contact-details">
+                   <strong>Address:</strong> R J Auto Industries, 18 Industrial Area, Phagwara-144401, India<br>
+                 </br>
+                   <strong>Phone:</strong> +91 95011 05511<br>
+                 </br>
+                   <strong>Email:</strong> <a href="mailto:valvecups@gmail.com">valvecups@gmail.com</a><br>
+               </p>
+               <div class="social-icons">
+                   <a href="#" class="fab fa-facebook"></a>
+                   <a href="#" class="fab fa-instagram"></a>
+                   <a href="#" class="fab fa-linkedin"></a>
+               </div>
+
+                <div class="footer-right">
+                </div>
+               </div>
+           </div>
+       </div>
+       <div class="footer-bottom">
+
+           <p>Designed and Developed by <a href="https://anashadigisoln.in" target="_blank">Anasha Digisoln</a> <a href="https://www.instagram.com/anasha_digisoln/?hl=en" target="_blank"><img src="/anasha2.png" alt="Anasha Digisoln Logo" class="anasha-logo"></p></a>
+       </div>
+   </footer>
+
+
+   <!-- Back to Top Button -->
+    <a id="backToTopBtn" href="#home">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <script> // Back to Top Button Visibility
+    const backToTopBtn = document.getElementById("backToTopBtn");
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            backToTopBtn.style.display = "block";  // Show button
+        } else {
+            backToTopBtn.style.display = "none";  // Hide button
+        }
+    }
+    </script>
+
+</body>
+</html>
